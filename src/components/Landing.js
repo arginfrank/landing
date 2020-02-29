@@ -85,7 +85,7 @@ const useStyles = makeStyles(theme => ({
   rose: {
     width:'50%',
     height: '50.5vh',
-    marginTop: '8vh',
+    marginTop: '8.9vh',
     marginLeft:0,
     marginRight:0,
     marginBottom:0,
@@ -104,7 +104,7 @@ const useStyles = makeStyles(theme => ({
   mark: {
     width:'50%',
     height: '50.5vh',
-    marginTop: '8vh',
+    marginTop: '8.9vh',
     marginLeft:0,
     marginRight:0,
     marginBottom:0,
