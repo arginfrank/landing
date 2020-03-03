@@ -211,7 +211,7 @@ export default function Landing() {
               endIcon={<AppleIcon style={{fontSize:'calc(22px + .5vw)', paddingTop:0, paddingLeft:0, marginTop:'-10%', marginRight: '15%', marginLeft: '0%', color:'black',}}/>}
               variant="contained"
               className={classes.button}
-              href ="https://www.google.com/"
+              href ="http://app.rosemark.co/"
             >
               PWA DEMO
             </Button>
