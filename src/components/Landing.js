@@ -156,7 +156,7 @@ const useStyles = makeStyles(theme => ({
    transform: "translate(-50%, -50%)",
    top: '5.2vh',
    left: '50vw',
-   height: '10vw',
+   height: '20',
 
   },
   logo: {
