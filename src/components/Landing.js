@@ -159,10 +159,8 @@ const useStyles = makeStyles(theme => ({
 
   },
   logo: {
-    width: '25vw',
-    maxWidth: '20vh',
+    width: 'calc(100px + 4.5vw)',
     marginLeft: '5vw',
-
   },
  
   button2: {
@@ -175,7 +173,7 @@ const useStyles = makeStyles(theme => ({
     paddingBottom: '0.6%',
     paddingLeft: '2%',
     paddingRight: '2%',
-    fontSize: '2.5vw',
+    fontSize: 'calc(100px + 4.5vw)',
     letterSpacing: 0,
     textAlign: 'center',
     verticalAlign: 'middle',
