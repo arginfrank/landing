@@ -205,7 +205,7 @@ export default function Landing() {
         <div className={classes.paper} dir="ltr">       
           <Grid container spacing={0} >
             
-              <img src={Vislogo} alt="logo" className={classes.logo} height={10}></img>
+              <img src={Vislogo} alt="logo" height={10}></img>
             
             <Grid container className={classes.buttondiv}>
             <Button
