@@ -154,6 +154,7 @@ const useStyles = makeStyles(theme => ({
    position: 'absolute',
    transform: "translate(-50%, -50%)",
    top: '5.2vh',
+   maxHeight:10,
    left: '50vw',
    float:'left',
   },
