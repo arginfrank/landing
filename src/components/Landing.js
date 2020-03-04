@@ -204,9 +204,9 @@ export default function Landing() {
       <ThemeProvider theme={theme}>
         <div className={classes.paper} dir="ltr">       
           <Grid container spacing={0} >
-            <Grid item className={classes.logodiv}>
+            
               <img src={Vislogo} alt="logo" className={classes.logo} height={10}></img>
-            </Grid>
+            
             <Grid container className={classes.buttondiv}>
             <Button
               endIcon={<AppleIcon style={{fontSize:'calc(22px + .5vw)', paddingTop:0, paddingLeft:0, marginTop:'-10%', marginRight: '15%', marginLeft: '0%', color:'black',}}/>}
