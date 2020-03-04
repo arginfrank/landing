@@ -151,15 +151,15 @@ const useStyles = makeStyles(theme => ({
   },
  logodiv: {
    textAlign: 'left',
-   margin: 'auto',
    position: 'absolute',
    transform: "translate(-50%, -50%)",
    top: '5.2vh',
    left: '50vw',
-
+   float:'left',
   },
   logo: {
-    height: 'calc(35px + 5.5vh)',
+    maxWidth: 180,
+    height: 80,
     marginLeft: '5vw',
   },
  
