@@ -205,8 +205,6 @@ export default function Landing() {
         <div className={classes.paper} dir="ltr">       
           <Grid container spacing={0} >
             
-              <img src={Vislogo} alt="logo" height={10}></img>
-            
             <Grid container className={classes.buttondiv}>
             <Button
               endIcon={<AppleIcon style={{fontSize:'calc(22px + .5vw)', paddingTop:0, paddingLeft:0, marginTop:'-10%', marginRight: '15%', marginLeft: '0%', color:'black',}}/>}
