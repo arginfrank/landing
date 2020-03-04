@@ -160,7 +160,7 @@ const useStyles = makeStyles(theme => ({
   },
   logo: {
     width: '-webkit-calc(100% - 0px)',
-    height: '-webkit-calc(100% - 50vh)',
+    height: '-webkit-calc(50%)',
     marginLeft: '5vw',
   },
 
