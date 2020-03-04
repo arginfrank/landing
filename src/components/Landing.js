@@ -159,6 +159,7 @@ const useStyles = makeStyles(theme => ({
   },
   logo: {
     maxWidth: '25vw',
+    maxHeight: '10vw'
     height: '10vh',
     marginLeft: '5vw',
   },
