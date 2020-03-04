@@ -159,7 +159,6 @@ const useStyles = makeStyles(theme => ({
    float:'left',
   },
   logo: {
-    width: '-webkit-calc(100% - 0px)',
     height: '-webkit-calc(50%)',
     marginLeft: '5vw',
   },
@@ -205,7 +204,7 @@ export default function Landing() {
       <ThemeProvider theme={theme}>
         <div className={classes.paper} dir="ltr">       
           <Grid container spacing={0} >
-            <Grid container className={classes.logodiv}>
+            <Grid item className={classes.logodiv}>
               <img src={Vislogo} alt="logo" className={classes.logo} height={10}></img>
             </Grid>
             <Grid container className={classes.buttondiv}>
