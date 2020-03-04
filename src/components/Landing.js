@@ -7,7 +7,7 @@ import Blur from 'react-blur'
 import Group from '../assets/image/Group.svg'
 import Group2 from '../assets/image/Group2.svg'
 import AppleIcon from '@material-ui/icons/Apple';
-import Vislogo from '../assets/image/logo.png';
+import Vislogo from '../assets/image/logo.svg';
 import Rose from '../assets/image/ROSE.svg';
 import Mark from '../assets/image/MARK.svg';
 import PictureAsPdfIcon from '@material-ui/icons/PictureAsPdf';
@@ -158,8 +158,8 @@ const useStyles = makeStyles(theme => ({
    float:'left',
   },
   logo: {
-    maxWidth: 180,
-    height: 80,
+    maxWidth: '25vw',
+    height: '10vh',
     marginLeft: '5vw',
   },
  
