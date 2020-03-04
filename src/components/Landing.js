@@ -158,10 +158,8 @@ const useStyles = makeStyles(theme => ({
    float:'left',
   },
   logo: {
-    maxWidth: '25vw',
-    maxHeight: '10vw',
     width: '-webkit-calc(100% - 0px)',
-    height: '10vh',
+    height: '-webkit-calc(100% - 50vh)',
     marginLeft: '5vw',
   },
 
