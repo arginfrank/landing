@@ -160,7 +160,11 @@ const useStyles = makeStyles(theme => ({
   logo: {
     maxWidth: '25vw',
     height: '10vh',
-    marginLeft: '5vw',
+    top: '5.2vh',
+    left: '0vw',
+    float:'left',
+    position: 'absolute',
+    transform: "translate(-50%, -50%)",
   },
  
   button2: {
@@ -203,7 +207,7 @@ export default function Landing() {
       <ThemeProvider theme={theme}>
         <div className={classes.paper} dir="ltr">       
           <Grid container spacing={0} >
-            <Grid container className={classes.logodiv}>
+            <Grid container className={classes.buttondiv}>
               <img src={Vislogo} alt="logo" className={classes.logo}></img>
             </Grid>
             <Grid container className={classes.buttondiv}>
