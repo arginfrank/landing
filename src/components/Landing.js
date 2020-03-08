@@ -11,6 +11,7 @@ import Vislogo from '../assets/image/logo.svg';
 import Rose from '../assets/image/ROSE.svg';
 import Mark from '../assets/image/MARK.svg';
 import PictureAsPdfIcon from '@material-ui/icons/PictureAsPdf';
+import Pdf from '../assets/visapp.pdf'
 
 const theme = createMuiTheme({
   direction: 'rtl', // Both here and <body dir="rtl">
@@ -218,7 +219,7 @@ export default function Landing() {
             <Grid container className={classes.savetime}>
                   <img src={Group} alt="Save Your Time" className={classes.savepic}></img>
             </Grid>
-            <a href="https://www.google.com/" style={{width: '100%',}}>
+            <a href={Pdf} style={{width: '100%',}}>
               <Grid container className={classes.aboutus}>
                     <img src={Group2} alt="More about us?" className={classes.aboutuspic}></img>                 
               </Grid>            
